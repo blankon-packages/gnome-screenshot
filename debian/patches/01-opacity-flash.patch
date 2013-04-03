@@ -1,0 +1,13 @@
+diff -ur gnome-screenshot-3.4.1.orig/src/cheese-flash.c gnome-screenshot-3.4.1/src/cheese-flash.c
+--- gnome-screenshot-3.4.1.orig/src/cheese-flash.c	2011-10-04 22:13:04.000000000 +0700
++++ gnome-screenshot-3.4.1/src/cheese-flash.c	2013-04-03 14:21:01.631534269 +0700
+@@ -152,7 +152,8 @@
+   /* exponentially decrease */
+   gtk_window_set_opacity (flash_window, opacity * FLASH_FADE_FACTOR);
+ 
+-  if (opacity <= FLASH_LOW_THRESHOLD)
++  if (opacity <= FLASH_LOW_THRESHOLD ||
++      opacity == gtk_window_get_opacity(flash_window))
+   {
+     /* the flasher has finished when we reach the quit value */
+     gtk_widget_hide (GTK_WIDGET (flash_window));
