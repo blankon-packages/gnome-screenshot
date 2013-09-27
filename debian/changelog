@@ -1,8 +1,28 @@
-gnome-screenshot (3.4.1-1blankon1) suroboyo; urgency=low
+gnome-screenshot (3.10.0-0blankon1) suroboyo; urgency=low
 
-  * Added 01-opacity-flash.patch
+  * New Upstream Release 
 
- -- Mahyuddin <dotovr@di.blankon.in>  Wed, 03 Apr 2013 14:56:18 +0700
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Fri, 27 Sep 2013 21:46:49 +0700
+
+gnome-screenshot (3.8.3-1) unstable; urgency=low
+
+  [ Jeremy Bicha ]
+  * Update homepage
+
+  [ Michael Biebl ]
+  * New upstream release.
+
+ -- Michael Biebl <biebl@debian.org>  Thu, 29 Aug 2013 12:21:53 +0200
+
+gnome-screenshot (3.8.2-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream release.
+    - "Return NULL default screenshot dir on absence." (Closes: #676616)
+  * Bump Standards-Version to 3.9.4
+  * Bump glib build-dependency to >= 2.35.1 according to configure.ac
+
+ -- Andreas Henriksson <andreas@fatal.se>  Fri, 24 May 2013 11:52:27 +0200
 
 gnome-screenshot (3.4.1-1) unstable; urgency=low
 
