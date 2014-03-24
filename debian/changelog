@@ -1,3 +1,25 @@
+gnome-screenshot (3.11.90-1blankon1) tambora; urgency=low
+
+  * New upstream release.
+
+ -- Aris Febrianto <ariesfebrianto@gmail.com>  Tue, 25 Mar 2014 00:45:46 +0700
+
+gnome-screenshot (3.11.90-1) experimental; urgency=medium
+
+  [ Jackson Doak ]
+  * New upstream release (3.10.1-1).
+  * Add 01_accented-characters.patch from ubuntu, fixes an issue
+    when displaying accented characters. LP: #1155583
+
+  [ Andreas Henriksson ]
+  * New upstream release.
+  * Bump gtk+ build-dependency to 3.10.0
+    - now using GtkHeaderBar, so need a recent gtk+.
+  * Drop debian/patches
+    - 01_accented-characters.patch included in new upstream release.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Wed, 19 Feb 2014 00:06:46 +0100
+
 gnome-screenshot (3.10.0-0blankon1) suroboyo; urgency=low
 
   * New Upstream Release 
