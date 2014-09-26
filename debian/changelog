@@ -1,3 +1,15 @@
+gnome-screenshot (3.14.0-1blankon1) tambora; urgency=low
+
+  * New upstream release
+
+ -- Syai Mif <syai.unipdu@gmail.com>  Sat, 27 Sep 2014 05:22:15 +0700
+
+gnome-screenshot (3.13.90-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sun, 07 Sep 2014 13:55:50 +0200
+
 gnome-screenshot (3.11.90-1blankon1) tambora; urgency=low
 
   * New upstream release.
