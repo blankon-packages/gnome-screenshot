@@ -2,15 +2,14 @@
 # 
 # Modifications should be made to debian/control.in instead.
 # This file is regenerated automatically in the clean target.
-
 Source: gnome-screenshot
 Section: gnome
 Priority: optional
 Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
 XSBC-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Andreas Henriksson <andreas@fatal.se>, Michael Biebl <biebl@debian.org>
+Uploaders: Andreas Henriksson <andreas@fatal.se>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>
 Build-Depends: cdbs,
-               debhelper (>= 8),
+               debhelper (>= 9),
                gnome-pkg-tools (>= 0.10),
                autotools-dev,
                intltool (>= 0.40.0),
@@ -19,8 +18,8 @@ Build-Depends: cdbs,
                libcanberra-gtk3-dev (>= 0.26-3~),
                libxext-dev,
                libx11-dev
-Standards-Version: 3.9.4
-Homepage: https://wiki.gnome.org/GnomeUtils
+Standards-Version: 3.9.6
+Homepage: https://wiki.gnome.org/Apps/Attic/GnomeUtils
 Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/gnome-screenshot
 Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-screenshot
 
@@ -28,8 +27,6 @@ Package: gnome-screenshot
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends}
-Breaks: gnome-utils (<< 2.30.0-2)
-Replaces: gnome-utils (<< 2.30.0-2)
 Description: screenshot application for GNOME
  This tool takes a picture of the desktop or of a window and saves it
  into a file.

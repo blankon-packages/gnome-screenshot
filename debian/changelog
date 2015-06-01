@@ -1,8 +1,24 @@
-gnome-screenshot (3.14.0-1blankon1) tambora; urgency=low
+gnome-screenshot (3.16.2-1blankon1) tambora; urgency=medium
 
-  * New upstream release
+  * Fix screen blank after take screenshot
+    - Added patch 0001-Disable-highly-buggy-fallback-flash.patch
 
- -- Syai Mif <syai.unipdu@gmail.com>  Sat, 27 Sep 2014 05:22:15 +0700
+ -- Mahyuddin <yudi.al@gmail.com>  Mon, 01 Jun 2015 22:53:06 +0700
+
+gnome-screenshot (3.16.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Drop obsolete Breaks/Replaces.
+  * Bump debhelper compatibility level to 9.
+  * Bump Standards-Version to 3.9.6.
+
+ -- Michael Biebl <biebl@debian.org>  Sun, 24 May 2015 18:06:48 +0200
+
+gnome-screenshot (3.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 23 Sep 2014 15:43:32 +0200
 
 gnome-screenshot (3.13.90-1) experimental; urgency=medium
 
@@ -10,11 +26,11 @@ gnome-screenshot (3.13.90-1) experimental; urgency=medium
 
  -- Sjoerd Simons <sjoerd@debian.org>  Sun, 07 Sep 2014 13:55:50 +0200
 
-gnome-screenshot (3.11.90-1blankon1) tambora; urgency=low
+gnome-screenshot (3.12.0-1) unstable; urgency=medium
 
   * New upstream release.
 
- -- Aris Febrianto <ariesfebrianto@gmail.com>  Tue, 25 Mar 2014 00:45:46 +0700
+ -- Andreas Henriksson <andreas@fatal.se>  Wed, 26 Mar 2014 22:56:13 +0100
 
 gnome-screenshot (3.11.90-1) experimental; urgency=medium
 
@@ -32,11 +48,11 @@ gnome-screenshot (3.11.90-1) experimental; urgency=medium
 
  -- Andreas Henriksson <andreas@fatal.se>  Wed, 19 Feb 2014 00:06:46 +0100
 
-gnome-screenshot (3.10.0-0blankon1) suroboyo; urgency=low
+gnome-screenshot (3.10.0-1) unstable; urgency=low
 
-  * New Upstream Release 
+  * New upstream release.
 
- -- Rahman Yusri Aftian <aftian@di.blankon.in>  Fri, 27 Sep 2013 21:46:49 +0700
+ -- Andreas Henriksson <andreas@fatal.se>  Thu, 17 Oct 2013 20:30:55 +0200
 
 gnome-screenshot (3.8.3-1) unstable; urgency=low
 
